@@ -5,14 +5,14 @@ PPI Bower Module
 [@ppi]:     http://ppi.io/      "PPI Framework - The PHP Meta Framework!"
 [@bower]:   http://bower.io/    "A package manager for the web"
 
-PPI module to manage web assets with [Bower][@bower].
+[PPI][@ppi] module to manage web assets with [Bower][@bower].
 
 [![Build Status](https://secure.travis-ci.org/ppi/ppi-bower-module.png)](http://travis-ci.org/ppi/ppi-bower-module)
 
 Bower
 ----
 
-![Bower](http://bower.io/img/bower-logo.png)
+<img src="http://bower.io/img/bower-logo.png" width="200" height="200" />
 
 > Bower is a package manager for the web. It offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. There are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat.
 
