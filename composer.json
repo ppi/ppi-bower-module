@@ -1,0 +1,25 @@
+{
+    "name": "ppi/bower-module",
+    "description": "PPI module to manage web assets with Bower",
+    "keywords": ["ppi", "bower", "assets", "dependencies"],
+    "homepage": "https://github.com/ppi/ppi-bower-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vítor Brandão",
+            "email": "vitor@noiselabs.org"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/ppi-bower-module/issues"
+    },
+    "require": {
+        "ppi/framework": "dev-2.1-noiselabs"
+    },
+    "autoload": {
+        "psr-0": { "PPI\\BowerModule": "" }
+    },
+    "target-dir": "PPI/BowerModule",
+    "minimum-stability": "dev"
+}
