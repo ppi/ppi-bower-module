@@ -21,11 +21,20 @@ Requirements
 
 * [PHP][@php] 5.3.3 and up
 * [PPI Framework 2][@ppi] (2.1.x)
+* [Bower][@bower]
 
 Installation (Composer)
 -----------------------
 
-### 0. Install Composer
+### 1. Install Bower
+
+Bower depends on Node and npm. It's installed globally using npm:
+
+```bash
+npm install -g bower
+```
+
+### 2. Install Composer
 
 If you don't have Composer yet, download it following the instructions on
 http://getcomposer.org/ or just run the following command:
@@ -34,7 +43,7 @@ http://getcomposer.org/ or just run the following command:
 curl -s http://getcomposer.org/installer | php
 ```
 
-### 1. Add this package to your composer.json
+### 3. Add this package to your composer.json
 
 ```js
 {
@@ -52,7 +61,7 @@ $ php composer.phar update ppi/bower-module
 
 Composer will install the module to your project's `vendor/ppi` directory.
 
-### 2. Enable the module
+### 4. Enable the module
 
 Enable this module by editing `app/config/modules.yml`:
 
