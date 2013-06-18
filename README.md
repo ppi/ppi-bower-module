@@ -26,7 +26,13 @@ Requirements
 Installation (Composer)
 -----------------------
 
-### 1. Install Bower
+### 1. Install Node.js and Bower
+
+#### 1.1 Node.js
+
+If Node is not yet installed follow the instructions in [Installing Node.js via package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) for your OS and distro. Npm is packaged along with Node.
+
+#### 1.2 Bower
 
 Bower depends on Node and npm. It's installed globally using npm:
 
@@ -43,20 +49,10 @@ http://getcomposer.org/ or just run the following command:
 curl -s http://getcomposer.org/installer | php
 ```
 
-### 3. Add this package to your composer.json
-
-```js
-{
-    "require": {
-        "ppi/bower-module": "dev-master"
-    }
-}
-```
-
-Now tell composer to download the module by running the command:
+### 3. Add ppi/bower-module to your composer.json and install it
 
 ``` bash
-$ php composer.phar update ppi/bower-module
+$ php composer.phar require ppi/bower-module dev-master
 ```
 
 Composer will install the module to your project's `vendor/ppi` directory.
