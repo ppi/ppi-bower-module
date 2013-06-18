@@ -9,14 +9,10 @@ PPI Bower Module
 
 <!--- [![Build Status](https://secure.travis-ci.org/ppi/ppi-bower-module.png)](http://travis-ci.org/ppi/ppi-bower-module) -->
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Ppi-framework-logo.png" />
-
-> PPI is an open source PHP meta-framework. It has taken the good bits from Symfony2, ZendFramework2 & Doctrine2 and combined them together to create a solid and very easy web application framework. It can be considered the boilerplate of PHP frameworks.
-
 Bower
 -----
 
- <img src="http://bower.io/img/bower-logo.png" height="96" />
+<img src="http://bower.io/img/bower-logo.png" height="100" />
 
 > Bower is a package manager for the web. It offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. There are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat.
 
@@ -83,3 +79,10 @@ Submitting bugs and feature requests
 ------------------------------------
 
 Bugs and feature requests are tracked on [GitHub](https://github.com/ppi/ppi-bower-module/issues).
+
+About PPI
+---------
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Ppi-framework-logo.png" width="74" height="50" />
+
+> PPI is an open source PHP meta-framework. It has taken the good bits from Symfony2, ZendFramework2 & Doctrine2 and combined them together to create a solid and very easy web application framework. It can be considered the boilerplate of PHP frameworks.
