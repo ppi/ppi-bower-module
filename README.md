@@ -5,7 +5,7 @@ PPI Bower Module
 [@ppi]:     http://ppi.io/      "PPI Framework - The PHP Meta Framework!"
 [@bower]:   http://bower.io/    "A package manager for the web"
 
-[PPI][@ppi] module to manage web assets with [Bower][@bower].
+[PPI2][@ppi] module to manage web assets with [Bower][@bower].
 
 <!--- [![Build Status](https://secure.travis-ci.org/ppi/ppi-bower-module.png)](http://travis-ci.org/ppi/ppi-bower-module) -->
 

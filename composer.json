@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Vítor Brandão",
-            "email": "vitor@noiselabs.org"
+            "email": "vitor@ppi.io"
         }
     ],
     "support": {
@@ -15,7 +15,14 @@
         "issues": "https://github.com/ppi/ppi-bower-module/issues"
     },
     "require": {
-        "ppi/framework": "dev-2.1-noiselabs"
+        "ppi/framework": "dev-develop",
+        "symfony/process": "2.4.*@dev"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "3.7.*"
+    },
+    "config": {
+        "bin-dir": "bin"
     },
     "autoload": {
         "psr-0": { "PPI\\BowerModule": "" }
