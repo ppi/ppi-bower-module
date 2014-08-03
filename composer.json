@@ -8,6 +8,10 @@
         {
             "name": "Vítor Brandão",
             "email": "vitor@ppi.io"
+        },
+        {
+            "name": "Paul Dragoonis",
+            "email": "paul@ppi.io"
         }
     ],
     "support": {
@@ -25,8 +29,10 @@
         "bin-dir": "bin"
     },
     "autoload": {
-        "psr-0": { "PPI\\BowerModule": "" }
+        "psr-4": {
+            "PPI\\BowerModule\\": "src/",
+            "PPI\\BowerModule\\Tests\\": "tests"
+        }
     },
-    "target-dir": "PPI/BowerModule",
     "minimum-stability": "dev"
 }
